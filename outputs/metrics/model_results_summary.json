@@ -1,0 +1,113 @@
+{
+  "lr_val": {
+    "model": "Logistic Regression",
+    "threshold": 0.3,
+    "accuracy": 0.376826,
+    "precision": 0.01044,
+    "recall": 0.982293,
+    "f1": 0.020661,
+    "roc_auc": 0.869205,
+    "pr_auc": 0.049873,
+    "confusion_matrix": {
+      "tn": 124987,
+      "fp": 210326,
+      "fn": 40,
+      "tp": 2219
+    },
+    "n_samples": 337572,
+    "n_positives": 2259,
+    "positive_rate": 0.006692
+  },
+  "lr_test": {
+    "model": "Logistic Regression",
+    "threshold": 0.3,
+    "accuracy": 0.382047,
+    "precision": 0.017278,
+    "recall": 0.978051,
+    "f1": 0.033956,
+    "roc_auc": 0.855074,
+    "pr_auc": 0.063741,
+    "confusion_matrix": {
+      "tn": 89855,
+      "fp": 149532,
+      "fn": 59,
+      "tp": 2629
+    },
+    "n_samples": 242075,
+    "n_positives": 2688,
+    "positive_rate": 0.011104
+  },
+  "rf_val": {
+    "model": "Random Forest",
+    "threshold": 0.3,
+    "accuracy": 0.815044,
+    "precision": 0.033258,
+    "recall": 0.949093,
+    "f1": 0.064265,
+    "roc_auc": 0.954444,
+    "pr_auc": 0.202235,
+    "confusion_matrix": {
+      "tn": 272992,
+      "fp": 62321,
+      "fn": 115,
+      "tp": 2144
+    },
+    "n_samples": 337572,
+    "n_positives": 2259,
+    "positive_rate": 0.006692
+  },
+  "rf_test": {
+    "model": "Random Forest",
+    "threshold": 0.3,
+    "accuracy": 0.826232,
+    "precision": 0.055213,
+    "recall": 0.909226,
+    "f1": 0.104104,
+    "roc_auc": 0.937497,
+    "pr_auc": 0.245097,
+    "confusion_matrix": {
+      "tn": 197566,
+      "fp": 41821,
+      "fn": 244,
+      "tp": 2444
+    },
+    "n_samples": 242075,
+    "n_positives": 2688,
+    "positive_rate": 0.011104
+  },
+  "best_model": "Random Forest",
+  "feat_cols": [
+    "national_inv",
+    "lead_time",
+    "in_transit_qty",
+    "forecast_3_month",
+    "forecast_6_month",
+    "forecast_9_month",
+    "sales_1_month",
+    "sales_3_month",
+    "sales_6_month",
+    "sales_9_month",
+    "min_bank",
+    "pieces_past_due",
+    "perf_6_month_avg",
+    "perf_12_month_avg",
+    "local_bo_qty",
+    "potential_issue",
+    "deck_risk",
+    "oe_constraint",
+    "ppap_risk",
+    "stop_auto_buy",
+    "rev_stop",
+    "lead_time_missing",
+    "inv_demand_ratio",
+    "stock_coverage_months",
+    "demand_gap",
+    "supply_vs_demand",
+    "total_risk_flags",
+    "sales_acceleration",
+    "avg_supplier_perf",
+    "nat_inv_is_negative",
+    "past_due_flag",
+    "local_bo_flag"
+  ]
+}

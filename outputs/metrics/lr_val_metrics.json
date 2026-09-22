@@ -1,0 +1,19 @@
+{
+  "model": "Logistic Regression",
+  "threshold": 0.3,
+  "accuracy": 0.376826,
+  "precision": 0.01044,
+  "recall": 0.982293,
+  "f1": 0.020661,
+  "roc_auc": 0.869205,
+  "pr_auc": 0.049873,
+  "confusion_matrix": {
+    "tn": 124987,
+    "fp": 210326,
+    "fn": 40,
+    "tp": 2219
+  },
+  "n_samples": 337572,
+  "n_positives": 2259,
+  "positive_rate": 0.006692
+}

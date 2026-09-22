@@ -1,0 +1,20 @@
+{
+  "total_products_train": 1687860,
+  "total_backorders_train": 11293,
+  "backorder_rate_train": 0.006691,
+  "backorder_rate_train_pct": 0.6691,
+  "total_products_test": 242075,
+  "total_backorders_test": 2688,
+  "backorder_rate_test": 0.011104,
+  "backorder_rate_test_pct": 1.1104,
+  "products_with_negative_inventory": 5885,
+  "pct_negative_inventory": 0.35,
+  "median_lead_time": 8.0,
+  "mean_lead_time": 7.87,
+  "pct_missing_lead_time": 5.98,
+  "deck_risk_pct": 22.96,
+  "ppap_risk_pct": 12.08,
+  "median_national_inv": 15.0,
+  "mean_national_inv": 496.1,
+  "pct_zero_transit": 79.7
+}

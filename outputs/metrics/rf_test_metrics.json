@@ -1,0 +1,19 @@
+{
+  "model": "Random Forest",
+  "threshold": 0.3,
+  "accuracy": 0.826232,
+  "precision": 0.055213,
+  "recall": 0.909226,
+  "f1": 0.104104,
+  "roc_auc": 0.937497,
+  "pr_auc": 0.245097,
+  "confusion_matrix": {
+    "tn": 197566,
+    "fp": 41821,
+    "fn": 244,
+    "tp": 2444
+  },
+  "n_samples": 242075,
+  "n_positives": 2688,
+  "positive_rate": 0.011104
+}
