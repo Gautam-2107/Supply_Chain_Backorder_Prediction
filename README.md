@@ -270,7 +270,7 @@ Displays:
 Supply_Chain_Backorder_Project/
 │
 ├── app.py
-├── project.ipynb
+├── Gautam_Raju_Saripalli_Supply_Chain_Backorder_Prediction.ipynb
 ├── train.py
 ├── requirements.txt
 ├── README.md
@@ -307,6 +307,7 @@ Supply_Chain_Backorder_Project/
 - Plotly
 - SciPy
 - Joblib
+- SHAP
 - Jupyter Notebook
 - Streamlit
 
@@ -317,7 +318,7 @@ Supply_Chain_Backorder_Project/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Gautam-2107/Supply_Chain_Backorder_Prediction.git
 cd Supply_Chain_Backorder_Project
 ```
 
@@ -382,6 +383,12 @@ Interactive Dashboard
 ```
 
 This allows supply-chain stakeholders to move from understanding what happened to identifying risk and deciding where preventive action should be focused.
+
+---
+
+## GitHub Repository
+
+https://github.com/Gautam-2107/Supply_Chain_Backorder_Prediction
 
 ---
 
