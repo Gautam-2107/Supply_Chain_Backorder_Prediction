@@ -73,16 +73,29 @@ Risk categories are mapped to practical supply-chain actions such as replenishme
 
 ## Dataset
 
-The project uses the Backorder Prediction dataset containing inventory, demand, supply, supplier-performance, and operational-risk attributes.
+The project uses the publicly available **Back Order Prediction Dataset** from Kaggle.
 
-### Main datasets
+### Original Dataset
 
-- `Training_BOP.csv` — original training dataset
-- `Testing_BOP.csv` — external holdout test dataset
-- `Training_BOP_sample.csv` — 100,000-row representative sample included with the deployed dashboard
+- [Back Order Prediction Dataset — Kaggle](https://www.kaggle.com/datasets/gowthammiryala/back-order-prediction-dataset)
 
-The original datasets are used for the complete modeling workflow. The included sample is used by the deployed Streamlit dashboard to keep the repository lightweight.
+The original dataset contains:
 
+- `Training_BOP.csv` — training dataset
+- `Testing_BOP.csv` — external test dataset
+- 23 columns including the target variable `went_on_backorder`
+
+### Project Dataset
+
+For GitHub and Streamlit deployment, a 100,000-row representative sample is included:
+
+- `Training_BOP_sample.csv` — lightweight sample used by the dashboard
+
+The complete original datasets were used for the project's analysis and model evaluation but are not included in the GitHub repository because of their large file sizes.
+
+### Data Processing
+
+The data was cleaned and transformed during the project workflow, including handling missing values, sentinel values such as `-99`, categorical variables, and feature engineering for supply-chain risk analysis.
 ### Important columns
 
 ```text
